@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-aspnetcore-container
-        image: acrvacedar.azurecr.io/va-cedar-webapi-practice:#{Build.BuildNumber}#
+        image: acrvacedar.azurecr.io/va-cedar-webapi-practice:#{Build.BuildId}#
         resources:
           limits:
             memory: "128Mi"
