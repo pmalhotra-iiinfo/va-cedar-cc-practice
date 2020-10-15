@@ -16,7 +16,7 @@ spec:
       - name: angular 
         #image: tandtitadmin/angular-app-1013:#{Build.BuildId}#
         #image: asepcorewebapi.azurecr.io/angular-app-practice:53
-        image: acrvacedar.azurecr.io/va-cedar-practice:#{Build.BuildId}#
+        image: acrvacedar.azurecr.io/va-cedar-angular-practice:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
